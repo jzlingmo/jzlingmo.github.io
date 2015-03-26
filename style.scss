@@ -278,9 +278,22 @@ nav {
   background-color: $lightGray;
 }
 
+
+/*sticky footer */
+// html, body, #wrap {height: 100%; }
+// body > #wrap {height: auto; min-height: 100%; }
+// #main {padding-bottom: 100px; }
+
 footer {
   padding: 20px 0;
   text-align: center;
+
+  // position: relative;
+  // margin-top: -100px;
+  // height: 100px;
+  // clear: both;
+  // background: #248E4E;
+  // color: #ffffff
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
