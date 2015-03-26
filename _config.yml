@@ -19,16 +19,12 @@ avatar: https://raw.githubusercontent.com/jzlingmo/jzlingmo.github.io/master/ima
 footer-links:
   dribbble:
   email:
-  facebook:
-  flickr:
   github: jzlingmo/
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  twitter  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -51,6 +47,8 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
+# source:      _source
+# destination: _deploy
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
@@ -60,7 +58,7 @@ version: v1.1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # :compressed or :expanded
 
 # Use the following plug-ins
 gems:
