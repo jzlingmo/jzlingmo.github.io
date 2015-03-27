@@ -119,6 +119,8 @@ img {
   background: $lightGray;
 }
 
+/* tools */
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -127,6 +129,27 @@ img {
     display: table;
 }
 
-.clearfix:after {
-    clear: both;
+.clearfix:after {clear: both; }
+
+.text-center{text-align: center; }
+.text-right{text-align: right; }
+
+/* padding */
+.padding-y,
+.padding-bottom{
+  padding-top: 15px;
+}
+.padding-y,
+.padding-bottom{
+  padding-bottom: 15px;
+}
+
+/* margin */
+.margin-y,
+.margin-bottom{
+  margin-top: 15px;
+}
+.margin-y,
+.margin-bottom{
+  margin-bottom: 15px;
 }
