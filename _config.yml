@@ -24,7 +24,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -37,36 +37,58 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: http://jzlingmo.github.io
 
+
+
+###### JEKYLL CONFIG
+version: v2.4.0 # version of Jekyll
+
+### DEFAULT USER CONFIGURATION
+
+## permalink: pretty # /:categories/:year/:month/:day/:title/ # default to date
+paginate: 2 # max items per page
+paginate_path: /blog/p:num # default to /page:num
+
+sass:
+  # sass_dir: _sass # the Sass partials directory, as we're using @imports
+  style: :compressed # :compressed or :expanded
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values: # values will be scoped to any file that in the scopes path
+      # layout: "default"
+      author: "jzlingmo"
+
+
+### GLOBAL CONFIGURATION
+# Refer http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
+### BUILD COMMAND OPTION
+# future: true # Publish posts with a future date
+# lsi: false
+# limit_posts: 0
+# excerpt_separator: "\n\n"
+markdown: redcarpet # default to kramdown
+highlighter: pygments # default to rouge
+
+### SERVE COMMAND OPTIONS
+# host: 127.0.1
+# port: 4000
+# detach: false
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-# source:      _source
-# destination: _deploy
-markdown: redcarpet
-highlighter: pygments
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.1.0
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # :compressed or :expanded
-
-# Use the following plug-ins
+### PLUGINS
+whitelist: []
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
