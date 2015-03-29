@@ -1,9 +1,12 @@
----
-layout: post
-title: First Post
----
 
 See you later, my friend.
+
+
+{% highlight js linenos %}
+function(){
+    alert('Hello world');
+}
+{% endhighlight %}
 
 ![]({{ site.baseurl }}/images/posts/fp001.jpg)
 

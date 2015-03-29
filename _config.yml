@@ -9,20 +9,14 @@ name: Vijay Zhou's site
 description: A Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/jzlingmo/jzlingmo.github.io/master/images/logo.png
+avatar: http://7xib2u.com1.z0.glb.clouddn.com/avatar.jpg
 
-#
-# Flags below are optional
-#
+imghost: http://7xib2u.com1.z0.glb.clouddn.com
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email:
   github: jzlingmo/
-  instagram:
-  linkedin:
-  pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
@@ -44,20 +38,30 @@ version: v2.4.0 # version of Jekyll
 
 ### DEFAULT USER CONFIGURATION
 
-## permalink: pretty # /:categories/:year/:month/:day/:title/ # default to date
-paginate: 2 # max items per page
-paginate_path: /blog/p:num # default to /page:num
+permalink: blog/:categories/:year/:month/:day/:title/ # pretty /:categories/:year/:month/:day/:title/ # default to date
+paginate: 10 # max items per page
+paginate_path: /blog/page:num # default to /page:num
 
 sass:
   # sass_dir: _sass # the Sass partials directory, as we're using @imports
   style: :compressed # :compressed or :expanded
 
 defaults:
+  # all site
   -
     scope:
       path: "" # an empty string here means all files in the project
+      layout: "default"
+
     values: # values will be scoped to any file that in the scopes path
-      # layout: "default"
+      author: "jzlingmo"
+  # only posts
+  -
+    scope:
+      type: "posts" # pages, posts, drafts
+
+    values:
+      layout: "post"
       author: "jzlingmo"
 
 
@@ -65,14 +69,14 @@ defaults:
 # Refer http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 exclude:
-    - Gemfile
+    - Gemfilew
     - Gemfile.lock
     - LICENSE
     - README.md
 
 ### BUILD COMMAND OPTION
 # future: true # Publish posts with a future date
-# lsi: false
+lsi: true # Produce an index for related posts.
 # limit_posts: 0
 # excerpt_separator: "\n\n"
 markdown: redcarpet # default to kramdown
