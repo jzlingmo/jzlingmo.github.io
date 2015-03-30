@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -57,8 +55,8 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.6;
+  margin: 0.8em 0 0.3em;
   padding: 0;
 
   @include mobile {
@@ -67,28 +65,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   a {
     color: inherit;
   }
 }
 
-h2 {
-  font-size: 24px;
-}
+h2 {font-size: 22px; }
+h3 {font-size: 18px; }
+h4 {font-size: 16px; color: $gray; }
 
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  color: $gray;
-}
-
-p {
-  margin: 15px 0;
-}
+p {margin: 5px 0; }
 
 a {
   color: $blue;
@@ -100,8 +87,9 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 5px 0;
   padding-left: 30px;
+  list-style: none;
 }
 
 ul {

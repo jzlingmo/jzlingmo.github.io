@@ -1,12 +1,8 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
-name: Vijay Zhou's site
+# Name of the site (displayed in the header)
+name: Vijay's site
 
 # Short bio or description (displayed in the header)
-description: A Web Developer from Somewhere
+description: Do better
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://7xib2u.com1.z0.glb.clouddn.com/avatar.jpg
@@ -16,9 +12,10 @@ imghost: http://7xib2u.com1.z0.glb.clouddn.com
 # Includes an icon in the footer for each username you enter
 footer-links:
   email:
-  github: jzlingmo/
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  linkedin:
+  github: jzlingmo
+  rss: true
+  stackoverflow: # stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -27,10 +24,8 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-# Your website URL
 # Used for Sitemap.xml and your RSS feed
 url: http://jzlingmo.github.io
-
 
 
 ###### JEKYLL CONFIG
@@ -38,7 +33,7 @@ version: v2.4.0 # version of Jekyll
 
 ### DEFAULT USER CONFIGURATION
 
-permalink: blog/:categories/:year/:month/:day/:title/ # pretty /:categories/:year/:month/:day/:title/ # default to date
+permalink: blog/:year/:month/:day/:title/ # pretty /:categories/:year/:month/:day/:title/ # default to date
 paginate: 10 # max items per page
 paginate_path: /blog/page:num # default to /page:num
 
@@ -55,6 +50,7 @@ defaults:
 
     values: # values will be scoped to any file that in the scopes path
       author: "jzlingmo"
+
   # only posts
   -
     scope:
@@ -83,7 +79,7 @@ markdown: redcarpet # default to kramdown
 highlighter: pygments # default to rouge
 
 ### SERVE COMMAND OPTIONS
-# host: 127.0.1
+# host: 127.0.0.1
 # port: 4000
 # detach: false
 # If you're hosting your site at a Project repository on GitHub pages

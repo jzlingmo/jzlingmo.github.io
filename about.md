@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-Just a web developer.Glad to see you here.
+一只来自不知道什么地方的前端攻城狮，默默地在攻城。。
 
-### More Information
-
-Eh..it seems nothing special to say.I will be back later
-
-### Contact me
+### 欢迎联系我一起交流进步
 
 [120237546@qq.com](mailto:120237546@qq.com)
