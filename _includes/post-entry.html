@@ -1,0 +1,12 @@
+<article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <time>{{post.date | date: "%b %e, %Y "}}</time>
+    <div class="entry">
+    {% if post.description %}
+      {{ post.description | append: '...' }}
+    {% else %}
+      {{ post.excerpt | strip_html }}
+    {% endif %}
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</article>

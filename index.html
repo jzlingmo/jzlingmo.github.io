@@ -4,20 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts limit:10 %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <time>{{post.date | date: "%Y %h"}}</time>
-      <div class="entry">
-        {% if post.description %}
-          {{ post.description | append: '...' }}
-        {% else %}
-          {{ post.excerpt | strip_html }}
-        {% endif %}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    {% include post-entry.html %}
   {% endfor %}
 </div>
 {% if site.posts.size >= 10 %}
