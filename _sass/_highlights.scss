@@ -1,8 +1,9 @@
-
+$code_bg: #efefef;
+$code_border: 1px solid #ddd;
 .highlight {
-  background-color: #efefef;
+  background-color: $code_bg;
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
+  border: $code_border;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -11,7 +12,19 @@
 }
 
 code {
-  font-family: "Consolas",Monaco,"Courier New",Courier,monospace;
+  font-family: $consolas;
+  padding: 2px 4px;
+  border-radius: 4px;
+  border: $code_border;
+  background-color: $code_bg;
+}
+
+// overwrite
+.highlight code{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
 }
 
 .highlight .lineno { font-style:italic; color: #666 } /* Line number */

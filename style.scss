@@ -1,19 +1,23 @@
 ---
 ---
+/*
+ * base
+ **/
 
-// base
 @import "variables";
 @import "mixins";
 
+@import "normalize";
 @import "reset";
-
 @import "base";
 @import "layout";
 
-// modules
-@import "pagination";
+/*
+ * modules
+ **/
+
 @import "highlights";
 @import "svg-icons";
 
-// parts
-@import "main";
+@import "pagination";
+@import "article";

@@ -17,14 +17,12 @@ footer-links:
   rss: true
   stackoverflow: # stackoverflow profile, e.g. "users/50476/bart-kiers"
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+duoshuo: jzlingmo
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+baidu_analytics:
 google_analytics:
 
-# Used for Sitemap.xml and your RSS feed
+# Used for Sitemap.xml and RSS feed
 url: http://jzlingmo.github.io
 
 
@@ -75,7 +73,22 @@ exclude:
 lsi: true # Produce an index for related posts.
 # limit_posts: 0
 # excerpt_separator: "\n\n"
+
 markdown: redcarpet # default to kramdown
+markdown_ext:  markdown,mkd,mkdn,md
+redcarpet:
+  # https://github.com/vmg/redcarpet
+  extensions:
+    - autolink # parse links
+    - fenced_code_blocks # can just use ``` as code block
+    - hard_wrap # will not ignore newlines
+    - no_intra_emphasis # 'foo_bar_baz' will not generate <em> tags
+    - tables
+    - strikethrough # e.g. this is ~~good~~ bad
+    - superscript # e.g. this is the 2^(nd) time
+    - underline
+    - with_toc_data # add HTML anchors to each header
+
 highlighter: pygments # default to rouge
 
 ### SERVE COMMAND OPTIONS

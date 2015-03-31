@@ -1,8 +1,4 @@
 
-/***************/
-/* MEYER RESET */
-/***************/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,38 +12,20 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
-// HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-// Apply a natural box layout model to all elements
-// from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  content: '';
+  content: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.6;
-  margin: 0.8em 0 0.3em;
+  margin: 0.67em 0 0.3em;
   padding: 0;
 
   @include mobile {
@@ -72,8 +50,8 @@ h1 {
 }
 
 h2 {font-size: 22px; }
-h3 {font-size: 18px; }
-h4 {font-size: 16px; color: $gray; }
+h3 {font-size: 20px; }
+h4 {font-size: 18px; color: $gray; }
 
 p {margin: 5px 0; }
 
@@ -88,7 +66,7 @@ a {
 
 ul, ol {
   margin: 5px 0;
-  padding-left: 30px;
+  padding-left: 20px;
   list-style: none;
 }
 
@@ -107,15 +85,6 @@ ol ul, ul ol, ul ul, ol ol {
 ul ul, ol ul {
   list-style-type: circle;
 }
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
+img{
   max-width: 100%;
 }
