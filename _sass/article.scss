@@ -9,12 +9,18 @@
 }
 
 .post {
+  @include mobile{
+    font-size: 80%;
+  }
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-style: italic;
+  }
+  time{
+    color: $gray;
   }
   .entry{
     margin: 5px 0;

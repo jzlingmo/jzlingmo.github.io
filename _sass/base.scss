@@ -5,17 +5,12 @@ body {
   color: $darkGray;
 }
 
+*{
+  box-sizing: border-box;
+}
 time{
   font-family: Georgia, "Microsoft YaHei", serif, Galdeano, "Hiragino Sans GB", sans-serif;
 }
-
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {

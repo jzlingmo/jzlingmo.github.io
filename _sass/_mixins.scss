@@ -4,3 +4,19 @@
     @content;
   }
 }
+
+@mixin transition($content) {
+  -webkit-transition: $content;
+  -moz-transition: $content;
+  -ms-transition: $content;
+  -o-transition: $content;
+  transition: $content;
+}
+
+@mixin transform($content) {
+  -webkit-transform: $content;
+  -moz-transform: $content;
+  -ms-transform: $content;
+  -o-transform: $content;
+  transform: $content;
+}
