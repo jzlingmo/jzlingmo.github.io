@@ -89,7 +89,7 @@ redcarpet:
     - underline
     - with_toc_data # add HTML anchors to each header
 
-highlighter: pygments # default to rouge
+highlighter: rouge # default to rouge
 
 ### SERVE COMMAND OPTIONS
 # host: 127.0.0.1
