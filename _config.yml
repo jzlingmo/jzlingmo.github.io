@@ -74,20 +74,34 @@ lsi: true # Produce an index for related posts.
 # limit_posts: 0
 # excerpt_separator: "\n\n"
 
-markdown: redcarpet # default to kramdown
+#markdown: redcarpet # default to kramdown
 markdown_ext:  markdown,mkd,mkdn,md
-redcarpet:
-  # https://github.com/vmg/redcarpet
+kramdown:
+  # to use toc:
+  # * TOC
+  #  {:toc}
+  input: GFM
   extensions:
-    - autolink # parse links
-    - fenced_code_blocks # can just use ``` as code block
-    - hard_wrap # will not ignore newlines
-    - no_intra_emphasis # 'foo_bar_baz' will not generate <em> tags
-    - tables
-    - strikethrough # e.g. this is ~~good~~ bad
-    - superscript # e.g. this is the 2^(nd) time
-    - underline
-    - with_toc_data # add HTML anchors to each header
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
+
+#redcarpet:
+#   https://github.com/vmg/redcarpet
+#  extensions:
+#    - autolink # parse links
+#    - fenced_code_blocks # can just use ``` as code block
+#    - hard_wrap # will not ignore newlines
+#    - no_intra_emphasis # 'foo_bar_baz' will not generate <em> tags
+#    - tables
+#    - strikethrough # e.g. this is ~~good~~ bad
+#    - superscript # e.g. this is the 2^(nd) time
+#    - underline
+#    - with_toc_data # add HTML anchors to each header
 
 highlighter: rouge # default to rouge
 
