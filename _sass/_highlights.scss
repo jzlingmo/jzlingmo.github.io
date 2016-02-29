@@ -12,8 +12,8 @@ $code_border: 1px solid #ddd;
 }
 
 code {
+  line-height: 1.4;
   font-family: $consolas;
-  font-size: 16px;
   padding: 2px 4px;
   border-radius: 4px;
   border: $code_border;
