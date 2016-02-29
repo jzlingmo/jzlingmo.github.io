@@ -105,3 +105,4 @@ baseurl: ""
 whitelist: []
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
