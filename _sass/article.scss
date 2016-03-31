@@ -9,6 +9,7 @@
 }
 
 .post {
+  word-break: break-all;
   @include mobile{
     font-size: 80%;
   }
