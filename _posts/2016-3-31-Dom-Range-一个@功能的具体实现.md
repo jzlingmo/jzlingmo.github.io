@@ -77,6 +77,7 @@ range.insertNode(textNode);
 ![](https://gw.alicdn.com/tps/TB1CffYMXXXXXXSXpXXXXXXXXXX-491-268.svg)
 
 ### 触发选人阶段
+
 #### 输入@触发
 
 ```js
@@ -151,6 +152,7 @@ _setCaretToEnd(editor){
 **另一种我们自定义方法完成bookmark的设置，在下文中再单独来描述。**
 
 ### 完成选人阶段
+
 #### 在指定的位置插入选中人的标签
 
 ```js
@@ -214,7 +216,9 @@ extractContents(editor){
 ``` 
 
 ### 自定义bookmark的创建和定位
+
 #### 创建bookmark
+
 主要思路是通过新增两个隐藏的标记点来设置bookmark。
 
 serializable为true则保存的是节点id，主要是为了能够根据id判断bookmark是否存在（要是被用户删掉了就找不到插入点了）。
