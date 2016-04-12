@@ -115,7 +115,7 @@ emitChange(){
 
 用^代表bookmark ，应是：
 
-“一二三[标签] ^”
+“一二三[标签]^”
 
 但实际上，由于这里使用的_rangy_库里的_getBookmark_方法比想象中的功能弱了些，只适用于文本节点保存位置，实际上该方法主要是用于文本内容不变但html结构发生变化的情况（比如富文本编辑器的加粗等）。如果使用该方法得到的结果是：
 
@@ -323,7 +323,7 @@ selection.removeAllRanges();
 selection.addRange(range);
 ```
 
-这些处理放在了**[rangy同名文件](https://github.com/jzlingmo/rc-mention/blob/v2/src/rangy.js)**中，如果在之前引入了rangy库则会将其取代。
+这些处理放在了[rangy同名文件](https://github.com/jzlingmo/rc-mention/blob/v2/src/rangy.js)中，如果在之前引入了rangy库则会将其取代。
 
 至于v1的bookmark，我们在上述已经以工具方法的形式进行提供了，那么在定位bookmark时就不用判断commonAncestorContainer了，只要判断标记节点是否存在就可以了。
 
