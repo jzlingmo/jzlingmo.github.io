@@ -67,7 +67,7 @@ range.insertNode(textNode);
 
 看到效果图应该能发现，在编辑区（contenteditable）插入独立的标签就是range的功劳了，当然在插入标签前后的光标位置也需要range配合selection进行控制。
 
-这里实现的是第二种（点击 **[这里](http://jzlingmo.github.io/rc-mention/)** 先看下具体demo，为啥有v2？详情请见下文），主要有三个阶段：
+这里实现的是第二种（  先来个 **[demo](http://jzlingmo.github.io/rc-mention/)** 体验一下，为啥有v2？详情请见下文），主要有三个阶段：
 
 1. **触发选人** -  两种方式，输入@触发和点击按钮触发
 
