@@ -63,7 +63,7 @@ range.insertNode(textNode);
 # @功能的实现
 @功能大致可分为两种情形，一种是实时输入，在光标右下方弹出搜索结果面板，另一种是在打开新的选择页，在其中完成选择。两种效果图如下：
 
-<img alt="Dom Range" src="https://gw.alicdn.com/tps/TB1CwaKMpXXXXaPXVXXXXXXXXXX-860-880.png" width="430" />
+<img alt="Dom Range" src="https://gw.alicdn.com/tps/TB1SnwIMpXXXXbcXFXXXXXXXXXX-860-880.png" width="430" />
 
 看到效果图应该能发现，在编辑区（contenteditable）插入独立的标签就是range的功劳了，当然在插入标签前后的光标位置也需要range配合selection进行控制。
 
