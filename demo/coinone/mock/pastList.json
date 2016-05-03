@@ -1,0 +1,22 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": [
+    {
+      "series": "1",
+      "time": "2016-05-02 14:03:59.0",
+      "times": 5,
+      "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+      "userName": " lly521",
+      "number": "928377123"
+    },
+    {
+      "series": "1",
+      "time": "2016-05-01 14:03:59.0",
+      "times": 122,
+      "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+      "userName": " john",
+      "number": "88238221"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": {
+    "userList": [
+      {
+        "paticipateTimes": 5,
+        "winTime": 1462080425000,
+        "username": " lly521",
+        "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg"
+      },
+      {
+        "paticipateTimes": 10,
+        "winTime": 1462171524000,
+        "username": " lly521",
+        "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg"
+      },
+      {
+        "paticipateTimes": 10,
+        "winTime": 1462171558000,
+        "username": " lly521",
+        "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg"
+      },
+      {
+        "paticipateTimes": 10,
+        "winTime": 1462171931000,
+        "username": " lly521",
+        "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg"
+      },
+      {
+        "paticipateTimes": 5,
+        "winTime": 1462175145000,
+        "username": "superdove",
+        "userImage": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg"
+      }
+    ]
+  }
+}

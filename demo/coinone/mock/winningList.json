@@ -1,0 +1,24 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": {
+    "productList": [
+      {
+        "series": "1",
+        "productId": "1",
+        "lotteryTime": "2016-05-02 14:03:59.0",
+        "imageURL": "http://m.tuniucdn.com/filebroker/cdn/snc/c7/08/c7084f4d78468178101e35fae37d8104_w800_h0_c0_t0_w240_h135_c1_t0.jpg",
+        "title": " iPhone6S plus 64G 大才是重点",
+        "num": "928377123"
+      },
+      {
+        "series": "1",
+        "productId": "1",
+        "lotteryTime": "2016-05-02 14:03:59.0",
+        "imageURL": "http://m.tuniucdn.com/filebroker/cdn/snc/c7/08/c7084f4d78468178101e35fae37d8104_w800_h0_c0_t0_w240_h135_c1_t0.jpg",
+        "title": " iPhone6S plus 64G 大才是重点  iPhone6S plus 64G 大才是重点  iPhone6S plus 64G 大才是重点  iPhone6S plus 64G 大才是重点",
+        "num": "88238221"
+      }
+    ]
+  }
+}

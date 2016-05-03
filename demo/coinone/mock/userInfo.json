@@ -1,0 +1,10 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": {
+    "imageUrl": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+    "name": "Jerry",
+    "balance": 1000,
+    "gold": 999
+  }
+}
