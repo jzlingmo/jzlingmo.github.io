@@ -1,0 +1,40 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": {
+    "topicID": "1",
+    "userName": "Jerry",
+    "userImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+    "imageURL": "http://m.tuniucdn.com/filebroker/cdn/snc/c7/08/c7084f4d78468178101e35fae37d8104_w800_h0_c0_t0_w240_h135_c1_t0.jpg|http://m.tuniucdn.com/filebroker/cdn/snc/c7/08/c7084f4d78468178101e35fae37d8104_w800_h0_c0_t0_w240_h135_c1_t0.jpg|http://m.tuniucdn.com/filebroker/cdn/snc/c7/08/c7084f4d78468178101e35fae37d8104_w800_h0_c0_t0_w240_h135_c1_t0.jpg",
+    "title": "iPhone6S plus 64G 大才是重点",
+    "time": "2016-05-07 12:00",
+    "reply": 230,
+    "views": 400,
+    "replyList": [
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 15:10",
+        "replyContent": "呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 13:21",
+        "replyContent": "呵呵 还不错 呵呵 还不错 呵呵 还不错 呵呵 还不错 呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 09:00",
+        "replyContent": "呵呵 还不错 呵呵 还不错 呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-07 12:10",
+        "replyContent": "呵呵 还不错 呵呵 还不错 呵呵 还不错 呵呵 还不错 呵呵 还不错"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "success": "0",
+  "message": "成功",
+  "data": {
+    "replyList": [
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 14:00",
+        "replyContent": "呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 13:21",
+        "replyContent": "呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-08 09:00",
+        "replyContent": "呵呵 还不错"
+      },
+      {
+        "replyImg": "http://m.tuniucdn.com/filebroker/cdn/prd/f3/d7/f3d769fd08ba86ddd1f3cc648c5efd25_w200_h200_c1_t0.jpg",
+        "replyName": "John",
+        "replyTime": "2016-05-07 12:10",
+        "replyContent": "呵呵 还不错"
+      }
+    ]
+  }
+}
